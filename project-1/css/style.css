@@ -1,0 +1,89 @@
+body {
+  background-color: HSL(217, 54%, 11%);
+  text-align: center;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+  color: white;
+  margin-left: 10px;
+}
+
+h2:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  width: 80%;
+  color: hsl(215, 32%, 27%);
+  margin: 30px auto 40px auto;
+
+}
+
+.content {
+  background-color: hsl(216, 50%, 16%);
+  width: 400px;
+  height: 600px;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  position: relative;
+  border-radius: 20px;
+}
+
+.main-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  margin-top: 50px;
+
+}
+
+.main-img:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.face-img {
+  width: 50px;
+  float: left;
+}
+
+.face-part {
+  margin-left: 10px;
+}
+.face-part:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.text {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+}
+
+.eth {
+
+  position: absolute;
+  color: hsl(178, 100%, 50%);
+  left: 10px;
+  bottom: 230px;
+  margin-bottom: 5px;
+}
+
+.time {
+
+
+  margin-bottom: 5px;
+  color: hsl(215, 51%, 70%);
+  position: absolute;
+  right: 10px;
+  bottom: 230px;
+
+}
+
+.creation{
+  color: hsl(215, 51%, 70%);
+}
+
+.combine{
+  position: absolute;
+}
